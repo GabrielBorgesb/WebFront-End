@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descrição do projeto.">
     <title>Meu Projeto</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- Link para o arquivo CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Link para favicon -->
@@ -13,41 +15,48 @@
 <body>
     <header>
         <nav>
-            
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
         <section id="home">
-            <h1>Bem-vindo ao Meu Projeto</h1>
-            <p>Este é um exemplo básico de estrutura de HTML.</p>
+            <h1>Água potável e saneamento.</h1>
+            <div class="images">
+                <img src="https://via.placeholder.com/100/00B0FF/FFFFFF?text=Água+Potável" alt="Água potável">
+                <img src="https://via.placeholder.com/100/009688/FFFFFF?text=Saneamento" alt="Saneamento">
+                <img src="https://via.placeholder.com/100/607D8B/FFFFFF?text=Recursos+Hídricos" alt="Recursos hídricos">
+            </div>
+            <p>Água limpa e saneamento são essenciais para a saúde humana e para o meio ambiente. A falta de acesso a esses recursos básicos afeta milhões de pessoas.</p>
         </section>
 
         <section id="about">
-            <h2>Sobre</h2>
-            <p>Informações sobre o projeto vão aqui.</p>
+            <h2>Objetivo de desenvolvimento sustentável no Brasil.</h2>
+            <p> Este objetivo visa garantir a disponibilidade e a gestão sustentável da água e do saneamento para todos. A água limpa e o saneamento são essenciais para a saúde humana e para o meio ambiente, mas milhões de pessoas ainda carecem desses recursos básicos.</p>
+            <p>Nosso projeto tem como objetivo resolver o problema do desperdício de água em comunidades locais, implementando um sistema de monitoramento de consumo e alertas para uso consciente. Nosso objetivo é aumentar a conscientização e promover a economia de recursos hídricos para um futuro mais sustentável.</p>
         </section>
 
-        <section id="contact">
-            <h2>Contato</h2>
-            <form action="#" method="post">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+        <section id="login">
+            <h2>Entre no Sistema</h2>
+            <p>Para acessar o sistema, clique no botão abaixo para fazer login.</p>
+            <div id="login-container">
+                <a href="login.html">
+                    <button class="login-button"><i class="icon">🔑</i> Entrar</button>
+                </a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Meu Projeto. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Projeto Web-FrontEnd Parte 1. Todos os direitos reservados.</p>
+        <p>Feito por Gabriel Borges e Jhonatan Bruno Viza <span class="icon">🔥</span><span class="icon">🔥</span>.</p>
+        <a href="https://github.com" target="_blank">GitHub</a> | 
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> | 
+        <a href="https://twitter.com" target="_blank">Twitter</a>
     </footer>
-
 </body>
 </html>

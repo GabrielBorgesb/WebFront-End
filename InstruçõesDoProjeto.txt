@@ -1,0 +1,24 @@
+Requisitos do Projeto
+Estrutura Geral
+
+Página Principal:
+Cabeçalho e Rodapé.
+Menu de Navegação.
+Pelo menos 2 ícones.
+Pelo menos 3 caixas de texto (usando elementos como <p>, <span>, <li>, etc.).
+Pelo menos 3 imagens.
+Pelo menos 3 links.
+Uso de 3 ou mais cores.
+Uso de 2 ou mais fontes diferentes.
+
+
+Página de Login e Cadastro:
+Deve incluir:
+Pelo menos 5 campos em um formulário (ex.: nome, e-mail, senha, etc.).
+Botão de envio que redireciona o usuário para a página de login.
+Página de Login:
+Deve conter campos para e-mail e senha.
+Código-Fonte
+O código-fonte (HTML e CSS) deve ser validado nos seguintes sites:
+Validador HTML
+Validador CSS

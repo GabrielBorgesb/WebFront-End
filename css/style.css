@@ -5,47 +5,156 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 0 20px;
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; /* Fonte principal */
+    background-color: #121212; /* Fundo escuro */
+    color: #e0e0e0; /* Texto claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza o texto */
 }
 
+/* Header */
 header {
-    background: #333;
+    width: 100%; /* Garantir que o cabeçalho ocupe toda a largura */
+    background-color: #1f1f1f;
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    padding: 20px 0; /* Distância vertical */
+    margin-bottom: 20px; /* Distância abaixo do cabeçalho */
 }
 
-header ul {
+nav {
+    width: 100%; /* Garante que o menu ocupe 100% da largura */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     list-style: none;
 }
 
-header ul li {
-    display: inline;
-    margin: 0 10px;
+.menu a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-header ul li a {
-    color: #fff;
+.menu a:hover {
+    color: #4caf50; /* Cor de hover */
+}
+
+/* Estilos para a seção Home */
+section#home {
+    margin-bottom: 40px; /* Distância abaixo da seção Home */
+}
+
+section#home h1,
+section#home p {
+    margin-bottom: 20px; /* Distância entre o título e o parágrafo */
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebra de linha */
+    padding-bottom: 20px;
+}
+
+.images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Main */
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 800px; /* Limita a largura máxima */
+    margin-bottom: 20px; /* Distância abaixo do conteúdo principal */
+}
+
+/* Seções */
+section {
+    margin-bottom: 40px; /* Distância entre as seções */
+}
+
+#login-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Garante que ocupe toda a altura da seção */
+    padding-top: 20px;
+}
+
+/* Remove o sublinhado do link */
+a {
     text-decoration: none;
 }
 
-main {
-    margin: 20px 0;
-}
-
-section {
-    margin: 20px 0;
-}
-
-footer {
+/* Estilo para o botão de login */
+.login-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
     text-align: center;
-    margin-top: 20px;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
+    text-decoration: none; /* Remove sublinhado */
+    display: flex;
+    align-items: center; /* Alinha o ícone ao texto */
+    justify-content: center;
+}
+
+.login-button .icon {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.login-button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo das imagens na seção 'home' */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite quebra de linha */
+}
+
+.images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px; /* Distância acima do rodapé */
+}
+
+footer .icon {
+    font-family: 'Roboto', sans-serif; /* Fonte secundária */
+    color: #4caf50; /* Ícones com cor destacada */
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
