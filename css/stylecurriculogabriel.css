@@ -1,0 +1,104 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Estilos gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6F2F2;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #006666;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Imagem de perfil */
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #666666;
+}
+
+/* Estilo da lista de contato */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Links de contato */
+a {
+    color: #006666;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #003333;
+    text-decoration: underline;
+}
+
+/* Seções principais */
+h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #006666;
+    border-bottom: 2px solid #006666;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+/* Lista de habilidades e hobbies */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-style: italic;
+}
+
+/* Seção específica para habilidades */
+#habilidades {
+    color: #003333;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Linha horizontal */
+hr {
+    border: 1px solid #CFE9E9;
+    margin-top: 30px;
+}
