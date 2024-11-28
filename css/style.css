@@ -158,3 +158,27 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Lista de doações */
+.donation-list {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.donation-list li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.donation-list a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.donation-list a:hover {
+    text-decoration: underline;
+}
