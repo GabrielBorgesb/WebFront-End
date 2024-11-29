@@ -11,23 +11,37 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Link para favicon -->
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
 </head>
 <body>
-    <header>
-
-    </header>
-
     <main>
-        <section id="home">
-            <h1>Login</h1>
-            
+        <section id="home" class="formLogin">
+            <form>
+                <h1>Login</h1>
+                <p>Digite seus dados de acesso:</p><br>
+                <label for="email">Usuário</label>
+                <div class="input-box">
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                    <i class="material-icons-outlined">mail</i>
+                </div>
+                <label for="password">Senha</label>
+                <div class="input-box">
+                    <input type="password" placeholder="Digite sua senha" required>
+                    <i class="material-icons-outlined">password</i>
+                </div>
+                <div class="remember">
+                    <label>
+                    <input type="checkbox">
+                    Lembrar minha senha
+                    </label>
+                </div>
+                    <button type="submit" class="entrar">Entrar</button>
+                <div class="register">
+                    <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+                </div>
+            </form>
         </section>
 
-
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>
