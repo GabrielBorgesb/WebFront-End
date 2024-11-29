@@ -182,3 +182,184 @@ footer a:hover {
 .donation-list a:hover {
     text-decoration: underline;
 }
+
+/*Página Login*/
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    gap: 5px;
+    color:white;
+}
+
+.formLogin h1{
+    font-size: 40px;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.formLogin label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    background-color: transparent;
+    color:rgb(255, 255, 255);
+    outline: none;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember label{
+    display: flex;
+    font-size: 12px;
+    margin: -10px 0 25px;
+}
+
+.remember label input {
+    margin-right: 5px;
+}
+
+.entrar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+.entrar:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.register {
+    font-size: 15px;
+    margin: 20px 0 20px;
+    font-weight: 600;
+}
+
+.register a {
+    text-decoration: none;
+    color: rgb(0, 103, 134);
+    font-weight: 600;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+/*Página Cadastro*/
+.formCadastro {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color:white;
+}
+
+.formCadastro h1{
+    font-size: 30px;
+}
+
+.formImagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 206, 211);
+    padding: 15px;
+}
+
+.formImagem img {
+    width: 300px;
+}
+
+.form {
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;  
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid white;
+}
+
+.input-box label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cadastrar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+.cadastrar:hover {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+@media screen and (max-width: 1330px) {
+    .formImagem{
+        display: none;
+    }
+    .formCadastro{
+        width: 60%;
+    }
+    .form{
+        width: 100%;
+    }
+}
