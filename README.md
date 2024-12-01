@@ -10,7 +10,7 @@ Página Inicial: Introdução ao tema "Água potável e saneamento", com imagens
 <h1>Tecnologias Utilizadas</h1>
 <li>HTML5: Estrutura do site.</li>
 <li>CSS3: Estilização e design responsivo.</li>
-<li>Google Fonts: Tipografia elegante utilizando as fontes Poppins e Roboto.</li>
+<li>Google Fonts: Fontes Poppins e Roboto.</li>
 <li>GitHub Pages: Hospedagem do site.</li>
 
 <h1>GitHub Pages:</h1>
