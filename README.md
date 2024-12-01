@@ -1,5 +1,5 @@
 <h1 align="center">Água Potável e Saneamento - Projeto WebFront</h1>
-Este é um projeto desenvolvido para a disciplina de WebFront, com o objetivo de conscientizar sobre a importância da água potável e saneamento. O site apresenta informações relevantes, links úteis para doações e uma interface amigável para navegar e aprender sobre o tema.
+Este é um projeto desenvolvido para a disciplina de WebFront, com o objetivo de conscientizar sobre a importância da água potável e saneamento. O site apresenta informações, links úteis para doações e uma interface para navegar e aprender sobre o tema.
 
 <h1>Funcionalidades</h1>
 Página Inicial: Introdução ao tema "Água potável e saneamento", com imagens e informações destacadas.
