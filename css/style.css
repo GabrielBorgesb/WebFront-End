@@ -363,3 +363,49 @@ footer a:hover {
         width: 100%;
     }
 }
+
+/* Estilos adicionais para admin */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.limpar, .excluir-todos {
+    background-color: #666;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.excluir-todos {
+    background-color: #ff4444;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.user-item button {
+    background: none;
+    border: none;
+    color: #ff4444;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+}

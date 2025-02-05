@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Meu Projeto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css"> <!-- CSS específico para admin -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formCadastro">
+            <div class="form">
+                <h1>Cadastro de Usuários</h1>
+                <form id="userForm">
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="button-group">
+                        <button type="submit" class="cadastrar">Cadastrar</button>
+                        <button type="button" class="limpar" onclick="limparCampos()">Limpar Campos</button>
+                        <button type="button" class="excluir-todos" onclick="excluirTodos()">Excluir Todos</button>
+                    </div>
+                </form>
+
+                <div class="pesquisa">
+                    <input type="text" id="searchInput" placeholder="Pesquisar por nome ou e-mail...">
+                </div>
+
+                <div id="userList"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Mesmo footer do index.html -->
+    </footer>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>
